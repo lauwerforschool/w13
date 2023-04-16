@@ -5,11 +5,9 @@ using System.Collections.Generic;
 
 namespace Group_4_DB.Models
 {
-    public partial class Classes
+    public partial class Majorclass
     {
+        public string MajorId { get; set; }
         public string ClassId { get; set; }
-        public string InstructorId { get; set; }
-        public string ClassName { get; set; }
-        public string AttendanceType { get; set; }
     }
 }

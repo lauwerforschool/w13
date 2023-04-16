@@ -5,19 +5,12 @@ using System.Collections.Generic;
 
 namespace Group_4_DB.Models
 {
-    public partial class Majors
+    public partial class Major
     {
-        public Majors()
-        {
-            Students = new HashSet<Students>();
-        }
-
         public string MajorId { get; set; }
         public string MajorName { get; set; }
         public int TotalCredits { get; set; }
         public string EstimatedCompletion { get; set; }
         public byte LaptopRequired { get; set; }
-
-        public virtual ICollection<Students> Students { get; set; }
     }
 }

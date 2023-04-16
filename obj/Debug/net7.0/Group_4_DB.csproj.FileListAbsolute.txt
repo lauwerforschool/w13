@@ -278,3 +278,13 @@ C:\Users\tard-\OneDrive\Desktop\School Assignments\C# 2\Week 11\C-Group4\Group_4
 C:\Users\tard-\OneDrive\Desktop\School Assignments\C# 2\Week 11\C-Group4\Group_4_DB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\tard-\OneDrive\Desktop\School Assignments\C# 2\Week 11\C-Group4\Group_4_DB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\tard-\OneDrive\Desktop\School Assignments\C# 2\Week 11\C-Group4\Group_4_DB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.csproj.AssemblyReference.cache
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.AssemblyInfoInputs.cache
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.AssemblyInfo.cs
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.dll
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\refint\Group_4_DB.dll
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.pdb

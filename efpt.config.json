@@ -15,31 +15,31 @@
    "SelectedToBeGenerated": 0,
    "Tables": [
       {
-         "Name": "[dbo].[Classes]",
+         "Name": "[dbo].[classes]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[Instructors]",
+         "Name": "[dbo].[instructors]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[Majors]",
+         "Name": "[dbo].[major]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[MajorsClasses]",
+         "Name": "[dbo].[majorclasses]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[StudentClasses]",
+         "Name": "[dbo].[studentclasses]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[Students]",
+         "Name": "[dbo].[students]",
          "ObjectType": 0
       }
    ],
-   "UiHint": "DESKTOP-S0NC7M2.academic_settings",
+   "UiHint": "lauwercsp23.academic_setting",
    "UncountableWords": null,
    "UseBoolPropertiesWithoutDefaultSql": false,
    "UseDatabaseNames": false,
@@ -48,7 +48,7 @@
    "UseFluentApiOnly": true,
    "UseHandleBars": false,
    "UseHierarchyId": false,
-   "UseInflector": false,
+   "UseInflector": true,
    "UseLegacyPluralizer": false,
    "UseManyToManyEntity": false,
    "UseNoDefaultConstructor": false,
