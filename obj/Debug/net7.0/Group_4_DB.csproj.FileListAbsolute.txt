@@ -838,3 +838,9 @@ C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug
 C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.pdb
 C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.genruntimeconfig.cache
 C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\ref\Group_4_DB.dll
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\bin\Debug\net7.0\published\web.config
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\bin\Debug\net7.0\published\appsettings.Development.json
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\bin\Debug\net7.0\published\appsettings.json
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\bin\Debug\net7.0\published\efpt.config.json
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\bin\Debug\net7.0\published\Group_4_DB.deps.json
+C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\bin\Debug\net7.0\published\Group_4_DB.runtimeconfig.json
