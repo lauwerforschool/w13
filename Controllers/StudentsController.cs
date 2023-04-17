@@ -84,20 +84,20 @@ namespace Group_4_DB.Controllers
         // POST: api/Students
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Students>> PostStudents(Students students)
+        public async Task<ActionResult<students>> PostStudents(students students)
         {
-          if (_context.Students == null)
+          if (_context.students == null)
           {
               return Problem("Entity set 'academic_settingsContext.Students'  is null.");
           }
-            _context.Students.Add(students);
+            _context.students.Add(students);
             try
             {
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateException)
             {
-                if (StudentsExists(students.StudentId))
+                if (StudentsExists(students.studentId))
                 {
                     return Conflict();
                 }
@@ -107,7 +107,7 @@ namespace Group_4_DB.Controllers
                 }
             }
 
-            return CreatedAtAction("GetStudents", new { id = students.StudentId }, students);
+            return CreatedAtAction("GetStudents", new { id = students.studentId }, students);
         }
 
         // DELETE: api/Students/5

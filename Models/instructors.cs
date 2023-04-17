@@ -5,12 +5,12 @@ using System.Collections.Generic;
 
 namespace Group_4_DB.Models
 {
-    public partial class Instructor
+    public partial class instructors
     {
-        public string InstructorsId { get; set; }
-        public string IfirstName { get; set; }
-        public string IlastName { get; set; }
-        public string Iemail { get; set; }
+        public string InstructorsID { get; set; }
+        public string IFirstName { get; set; }
+        public string ILastName { get; set; }
+        public string IEmail { get; set; }
         public byte IsAdviser { get; set; }
     }
 }

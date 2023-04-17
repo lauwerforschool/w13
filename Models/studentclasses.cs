@@ -5,9 +5,9 @@ using System.Collections.Generic;
 
 namespace Group_4_DB.Models
 {
-    public partial class Studentclass
+    public partial class studentclasses
     {
-        public string StudentId { get; set; }
-        public string ClassId { get; set; }
+        public string StudentID { get; set; }
+        public string ClassID { get; set; }
     }
 }

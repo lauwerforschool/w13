@@ -23,7 +23,7 @@ namespace Group_4_DB.Controllers
 
         // GET: api/Majors
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Majors>>> GetMajors()
+        public async Task<ActionResult<IEnumerable<major>>> GetMajors()
         {
           if (_context.Majors == null)
           {
@@ -53,7 +53,7 @@ namespace Group_4_DB.Controllers
         // PUT: api/Majors/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutMajors(string id, Majors majors)
+        public async Task<IActionResult> PutMajors(string id, major majors)
         {
             if (id != majors.MajorId)
             {
@@ -84,8 +84,8 @@ namespace Group_4_DB.Controllers
         // POST: api/Majors
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Majors>> PostMajors(Majors majors)
-        {
+             public async Task<ActionResult<Majors>> PostMajors(Majors majors)
+   {
           if (_context.Majors == null)
           {
               return Problem("Entity set 'academic_settingsContext.Majors'  is null.");

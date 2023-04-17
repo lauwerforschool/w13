@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 namespace Group_4_DB.Models
 {
-    public partial class Class
+    public partial class classes
     {
-        public string ClassId { get; set; }
-        public string InstructorsId { get; set; }
+        public string ClassID { get; set; }
+        public string InstructorsID { get; set; }
         public string ClassName { get; set; }
         public string AttendanceType { get; set; }
     }

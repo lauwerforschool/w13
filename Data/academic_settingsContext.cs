@@ -19,150 +19,121 @@ namespace Group_4_DB.Data
         {
         }
 
-        public virtual DbSet<Class> Classes { get; set; }
-        public virtual DbSet<Instructor> Instructors { get; set; }
-        public virtual DbSet<Major> Majors { get; set; }
-        public virtual DbSet<Majorclass> Majorclasses { get; set; }
-        public virtual DbSet<Student> Students { get; set; }
-        public virtual DbSet<Studentclass> Studentclasses { get; set; }
+        public virtual DbSet<classes> classes { get; set; }
+        public virtual DbSet<instructors> instructors { get; set; }
+        public virtual DbSet<major> major { get; set; }
+        public virtual DbSet<majorclasses> majorclasses { get; set; }
+        public virtual DbSet<studentclasses> studentclasses { get; set; }
+        public virtual DbSet<students> students { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Class>(entity =>
+            modelBuilder.Entity<classes>(entity =>
             {
                 entity.HasNoKey();
-
-                entity.ToTable("classes");
 
                 entity.Property(e => e.AttendanceType)
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.ClassId)
+                entity.Property(e => e.ClassID)
                     .HasMaxLength(10)
-                    .IsUnicode(false)
-                    .HasColumnName("ClassID");
+                    .IsUnicode(false);
 
                 entity.Property(e => e.ClassName)
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.InstructorsId)
+                entity.Property(e => e.InstructorsID)
                     .HasMaxLength(20)
-                    .IsUnicode(false)
-                    .HasColumnName("InstructorsID");
+                    .IsUnicode(false);
             });
 
-            modelBuilder.Entity<Instructor>(entity =>
+            modelBuilder.Entity<instructors>(entity =>
             {
                 entity.HasNoKey();
 
-                entity.ToTable("instructors");
-
-                entity.Property(e => e.Iemail)
+                entity.Property(e => e.IEmail)
                     .HasMaxLength(25)
-                    .IsUnicode(false)
-                    .HasColumnName("IEmail");
+                    .IsUnicode(false);
 
-                entity.Property(e => e.IfirstName)
+                entity.Property(e => e.IFirstName)
                     .HasMaxLength(20)
-                    .IsUnicode(false)
-                    .HasColumnName("IFirstName");
+                    .IsUnicode(false);
 
-                entity.Property(e => e.IlastName)
+                entity.Property(e => e.ILastName)
                     .HasMaxLength(20)
-                    .IsUnicode(false)
-                    .HasColumnName("ILastName");
+                    .IsUnicode(false);
 
-                entity.Property(e => e.InstructorsId)
+                entity.Property(e => e.InstructorsID)
                     .HasMaxLength(20)
-                    .IsUnicode(false)
-                    .HasColumnName("InstructorsID");
+                    .IsUnicode(false);
             });
 
-            modelBuilder.Entity<Major>(entity =>
+            modelBuilder.Entity<major>(entity =>
             {
                 entity.HasNoKey();
-
-                entity.ToTable("major");
 
                 entity.Property(e => e.EstimatedCompletion)
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.MajorId)
+                entity.Property(e => e.MajorID)
                     .HasMaxLength(20)
-                    .IsUnicode(false)
-                    .HasColumnName("MajorID");
+                    .IsUnicode(false);
 
                 entity.Property(e => e.MajorName)
                     .HasMaxLength(20)
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<Majorclass>(entity =>
+            modelBuilder.Entity<majorclasses>(entity =>
             {
                 entity.HasNoKey();
 
-                entity.ToTable("majorclasses");
-
-                entity.Property(e => e.ClassId)
+                entity.Property(e => e.ClassID)
                     .HasMaxLength(20)
-                    .IsUnicode(false)
-                    .HasColumnName("ClassID");
+                    .IsUnicode(false);
 
-                entity.Property(e => e.MajorId)
+                entity.Property(e => e.MajorID)
                     .HasMaxLength(20)
-                    .IsUnicode(false)
-                    .HasColumnName("MajorID");
+                    .IsUnicode(false);
             });
 
-            modelBuilder.Entity<Student>(entity =>
+            modelBuilder.Entity<studentclasses>(entity =>
             {
                 entity.HasNoKey();
 
-                entity.ToTable("students");
+                entity.Property(e => e.ClassID)
+                    .HasMaxLength(20)
+                    .IsUnicode(false);
 
-                entity.Property(e => e.Gpa).HasColumnName("GPA");
+                entity.Property(e => e.StudentID)
+                    .HasMaxLength(20)
+                    .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<students>(entity =>
+            {
+                entity.HasNoKey();
 
                 entity.Property(e => e.GradYear).HasColumnType("date");
 
-                entity.Property(e => e.MajorId)
+                entity.Property(e => e.MajorID)
                     .HasMaxLength(20)
-                    .IsUnicode(false)
-                    .HasColumnName("MajorID");
+                    .IsUnicode(false);
 
-                entity.Property(e => e.SfirstName)
+                entity.Property(e => e.SFirstName)
                     .HasMaxLength(20)
-                    .IsUnicode(false)
-                    .HasColumnName("SFirstName");
+                    .IsUnicode(false);
 
-                entity.Property(e => e.SlastName)
+                entity.Property(e => e.SLastName)
                     .HasMaxLength(20)
-                    .IsUnicode(false)
-                    .HasColumnName("SLastName");
+                    .IsUnicode(false);
 
-                entity.Property(e => e.StudentId)
+                entity.Property(e => e.StudentID)
                     .HasMaxLength(20)
-                    .IsUnicode(false)
-                    .HasColumnName("StudentID");
-            });
-
-            modelBuilder.Entity<Studentclass>(entity =>
-            {
-                entity.HasNoKey();
-
-                entity.ToTable("studentclasses");
-
-                entity.Property(e => e.ClassId)
-                    .HasMaxLength(20)
-                    .IsUnicode(false)
-                    .HasColumnName("ClassID");
-
-                entity.Property(e => e.StudentId)
-                    .HasMaxLength(20)
-                    .IsUnicode(false)
-                    .HasColumnName("StudentID");
+                    .IsUnicode(false);
             });
 
             OnModelCreatingPartial(modelBuilder);

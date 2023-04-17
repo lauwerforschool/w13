@@ -285,6 +285,3 @@ C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug
 C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.csproj.CoreCompileInputs.cache
 C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.dll
-C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\refint\Group_4_DB.dll
-C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\obj\Debug\net7.0\Group_4_DB.pdb
