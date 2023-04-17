@@ -30,7 +30,7 @@ namespace Group_4_DB.Data
         {
             modelBuilder.Entity<classes>(entity =>
             {
-                entity.HasNoKey();
+                entity.HasKey(e => e.ClassID);
 
                 entity.Property(e => e.AttendanceType)
                     .HasMaxLength(20)
@@ -51,7 +51,7 @@ namespace Group_4_DB.Data
 
             modelBuilder.Entity<instructors>(entity =>
             {
-                entity.HasNoKey();
+                entity.HasKey(e => e.InstructorsID);
 
                 entity.Property(e => e.IEmail)
                     .HasMaxLength(25)
@@ -72,7 +72,7 @@ namespace Group_4_DB.Data
 
             modelBuilder.Entity<major>(entity =>
             {
-                entity.HasNoKey();
+                entity.HasKey(e => e.MajorID);
 
                 entity.Property(e => e.EstimatedCompletion)
                     .HasMaxLength(20)
@@ -115,7 +115,7 @@ namespace Group_4_DB.Data
 
             modelBuilder.Entity<students>(entity =>
             {
-                entity.HasNoKey();
+                entity.HasKey(e => e.StudentID);
 
                 entity.Property(e => e.GradYear).HasColumnType("date");
 
