@@ -12,5 +12,6 @@
     <WebStackScaffolding_DbContextTypeFullName>Group_4_DB.Data.academic_settingsContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_DbContextDialogWidth>650</WebStackScaffolding_DbContextDialogWidth>
+    <NameOfLastUsedPublishProfile>C:\Users\Owner\Downloads\C-Group4-main copy for week 13\Group_4_DB\w13\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
